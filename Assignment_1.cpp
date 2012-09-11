@@ -30,9 +30,9 @@ int main()
       }
       
       // test for reasonable length
-      if (length < 6 || length > 15)
+      if (length < 7 || length > 15)
       {
-         cout << "Password must be between 6 and 15 characters.\n";
+         cout << "Password must be between 7 and 15 characters.\n";
          continue;
       }
       
