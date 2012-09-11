@@ -47,6 +47,8 @@ int main()
             continue; //  the for loop, we have a good upper case letter
          else if (letter >= '0' && letter <= '9')
             continue; //  the for loop, we have a good numeral
+         else if (letter == '-')
+        	 continue;
          else
          {
             //  this letter is not one of the three legal types
